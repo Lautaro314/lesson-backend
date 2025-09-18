@@ -1,0 +1,107 @@
+[
+     {
+          "id": 1,
+          "title": "jean baggy",
+          "description": "del 36 al 48",
+          "code": "ABC123",
+          "price": 15000,
+          "status": true,
+          "stock": 10,
+          "category": "JEANS"
+     },
+     {
+          "id": 2,
+          "title": "jean cargo",
+          "description": "del 36 al 48",
+          "code": "ABC123",
+          "price": 13000,
+          "status": true,
+          "stock": 10,
+          "category": "JEANS"
+     },
+     {
+          "id": 3,
+          "title": "remera overside",
+          "description": "Talle único de algodón",
+          "code": "ABC123",
+          "price": 12000,
+          "status": true,
+          "stock": 10,
+          "category": "REMERAS"
+     },
+     {
+          "id": 4,
+          "title": "remera overside",
+          "description": "Talle único de algodón",
+          "code": "ABC123",
+          "price": 12000,
+          "status": true,
+          "stock": 10,
+          "category": "REMERAS"
+     },
+     {
+          "id": 5,
+          "title": "remera overside",
+          "description": "Talle único de algodón",
+          "code": "ABC123",
+          "price": 12500,
+          "status": true,
+          "stock": 10,
+          "category": "REMERAS"
+     },
+     {
+          "id": 6,
+          "title": "campera de cuero",
+          "description": "talle del 1 al 5",
+          "code": "ABC123",
+          "price": 21000,
+          "status": true,
+          "stock": 10,
+          "category": "CAMPERAS"
+     },
+     {
+          "id": 7,
+          "title": "campera de cuero",
+          "description": "talle del 1 al 5",
+          "code": "ABC123",
+          "price": 25000,
+          "status": true,
+          "stock": 10,
+          "category": "CAMPERAS"
+     },
+     {
+          "id": 8,
+          "nombre": "camperas de cuero",
+          "description": "talle del 1 al 5",
+          "code": "ABC123",
+          "price": 26000,
+          "status": true,
+          "stock": 10,
+          "category": "CAMPERAS"
+     },
+     {
+          "title": "Remera Oversize",
+          "description": "Talle único de algodón",
+          "price": 23000,
+          "code": "ABC123",
+          "stock": 10
+     },
+     {
+          "title": "Remera Oversize",
+          "description": "Talle único de algodón",
+          "price": 23000,
+          "code": "ABC123",
+          "stock": 10,
+          "status": true,
+          "category": "REMERAS"
+     },
+     {
+          "title": "CHALECOS DE METAL",
+          "description": "Talle único de algodón",
+          "price": 45000,
+          "code": "CDE347",
+          "stock": 10,
+          "status": true,
+          "category": "CHALECOS"
+     }
+]
