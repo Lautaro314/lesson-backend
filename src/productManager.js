@@ -1,15 +1,13 @@
 const fs = require('fs')
 
 
+//CLASE CON PRODUCTO
 class ProductManager {
     constructor(path) {
         this.path = path;
         this.products = [];
 
     }
-
-
-
 
 
 //FUNCTION ASINCRONICA PARA DEVOLVER LOS PRODUCTOS
@@ -104,9 +102,5 @@ class ProductManager {
 
     await manager.getProduct();
 }) ();
-
-
-
-
 
 
