@@ -139,5 +139,14 @@
           "stock": 10,
           "status": true,
           "category": "CHALECOS"
+     },
+     {
+          "title": "CHALECOS DE METAL",
+          "description": "Talle único de algodón",
+          "price": 45000,
+          "code": "CDE347",
+          "stock": 10,
+          "status": true,
+          "category": "CHALECOS"
      }
 ]
