@@ -1,7 +1,6 @@
 const fs = require('fs')
 
 
-//CLASE CON PRODUCTO
 class ProductManager {
     constructor(path) {
         this.path = path;
@@ -10,7 +9,7 @@ class ProductManager {
     }
 
 
-//FUNCTION ASINCRONICA PARA DEVOLVER LOS PRODUCTOS
+
     async getProduct() {
 
         try {
@@ -35,7 +34,7 @@ class ProductManager {
 
 
 
-// FUNCION ASINCRONICA PARA MOSTRAR PRODUCTOS
+
     async addProduct(title , description , price , code , stock , status , category){
         try {
 
@@ -44,7 +43,7 @@ class ProductManager {
         this.products = data ? JSON.parse(data) : []
 
 
-        //VALIDACIONES
+        
         if (!title || !description || !code || !category ) {
 
             return 'Completar los datos...'
@@ -66,8 +65,13 @@ class ProductManager {
         if (stock == null || isNaN(stock)) {
             return 'stock invalido'
         }
+
+        let id = 1;
+        if(this.products.length>0){
+            id=Math.max(...this.products.map(d=>d.id))+1
+        }
         
-        const product = {title , description , price , code , stock , status , category}
+        const product = {id , title , description , price , code , stock , status , category}
         
         this.products.push(product)
 
@@ -89,7 +93,7 @@ class ProductManager {
 
 
 
-//ESTA ES LA SINTAXIS PARA QUE FUNCIONE LA EJECUCION 
+
 (async () => {
 
 
